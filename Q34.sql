@@ -1,5 +1,5 @@
 
---34 Find the customers who have ordered products from all categories
+---34 Find the customers who have ordered products from all categories
 SELECT customer_id, COUNT(DISTINCT category_id) AS num_categories
 FROM (
     SELECT o.customer_id, p.category_id
