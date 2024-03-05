@@ -1,5 +1,5 @@
 
- --14 Find the most expensive product in each category
+ ---14 Find the most expensive product in each category
 
 SELECT products.product_name,categories.category_name, products.unit_price
 FROM products
