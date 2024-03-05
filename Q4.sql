@@ -1,5 +1,5 @@
 
---4
+---4
 SELECT category_name,quantity*unit_price 
 from order_details
 inner join products
