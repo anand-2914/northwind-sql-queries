@@ -1,5 +1,5 @@
 
---22 Get the employees who have processed orders for ‘Chai’ product
+---22 Get the employees who have processed orders for ‘Chai’ product
 
 
 select employees.first_name,employees.last_name,products.product_name from employees
