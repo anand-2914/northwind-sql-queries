@@ -1,5 +1,5 @@
 
-  --36 Classify customers based on their total order amounts such that total order amounts > 5000 should
+  ---36 Classify customers based on their total order amounts such that total order amounts > 5000 should
   --be classified as ‘High Value’, if > 1000 then as ‘Medium Value’ and otherwise as ‘Low Value’
   
   SELECT customers.company_name,SUM(order_details.quantity*products.unit_price) AS TotalOrderAmount,
