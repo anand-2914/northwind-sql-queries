@@ -1,6 +1,6 @@
 
 
- --20 20. List the top 5 employees who have processed the most orders
+ --20 List the top 5 employees who have processed the most orders
  
  select employees.employee_id,employees.first_name,employees.last_name,Count(orders.order_id) as total_orders
  from employees
