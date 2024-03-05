@@ -1,6 +1,6 @@
 
   
-  --28 Find the top 3 most popular categories of products ordered
+  ---28 Find the top 3 most popular categories of products ordered
   SELECT categories.category_name, COUNT(orders.order_id) AS total_orders
 FROM orders
 JOIN order_details ON orders.order_id = order_details.order_id
