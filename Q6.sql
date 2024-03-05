@@ -1,4 +1,4 @@
---6
+---6
 SELECT customer_id,quantity
 from orders
 inner join order_details
