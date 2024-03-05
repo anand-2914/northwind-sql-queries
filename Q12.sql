@@ -1,5 +1,5 @@
 
- --12
+ ---12
 
 SELECT orders.employee_id, 
        SUM((order_details.quantity * products.unit_price )- order_details.discount) AS total_revenue
