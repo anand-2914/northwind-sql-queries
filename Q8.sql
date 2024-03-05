@@ -1,5 +1,5 @@
 
---8  Find the products that have never been ordered
+---8  Find the products that have never been ordered
 
 SELECT product_name,quantity
 from order_details 
