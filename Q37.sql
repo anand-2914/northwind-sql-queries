@@ -1,6 +1,6 @@
 
 
---37. Classify products based on their sales volume such that TotalQuantity > 1000 
+---37. Classify products based on their sales volume such that TotalQuantity > 1000 
 --Then SalesCategory as ‘High Sales’. If TotalQuantity>500 Then ‘Medium Sales’ and else ‘Lower Sales’ 
 
  SELECT products.product_name,SUM(order_details.quantity) AS TotalQuantity,
