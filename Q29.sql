@@ -1,5 +1,5 @@
 
---29 29. Find the month in the year 2016 with the highest total sales
+--29  Find the month in the year 2016 with the highest total sales
 
  select YEAR(order_date) AS year, MONTH(order_date) AS month, 
  SUM((order_details.quantity*products.unit_price)- order_details.discount) AS revenue
