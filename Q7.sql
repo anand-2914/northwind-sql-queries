@@ -1,5 +1,5 @@
 
---7  Get the top 5 most sold products
+---7  Get the top 5 most sold products
 SELECT product_name,quantity
 from order_details 
 inner join products
