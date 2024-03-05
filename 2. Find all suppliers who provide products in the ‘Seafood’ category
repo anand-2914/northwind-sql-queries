@@ -1,4 +1,4 @@
---2
+---2
 select products.supplier_id,suppliers.company_name,categories.category_name
 from  products
 inner join suppliers
