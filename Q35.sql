@@ -1,6 +1,6 @@
 
 
---35  Find the total sales for each year
+---35  Find the total sales for each year
 
 
 SELECT SUM(order_details.quantity*products.unit_price) AS total_sales,YEAR(orders.order_date) AS YEAROFSALE from products
