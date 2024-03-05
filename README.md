@@ -1,2 +1,2 @@
 # northwind-sql-queries
-SQL Queries of assignment
+SQL Queries of assignment-Anand Singh
