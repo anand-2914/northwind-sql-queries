@@ -1,5 +1,5 @@
 
-  --26 Find the customer who has ordered the most ‘Chai’ product
+  ---26 Find the customer who has ordered the most ‘Chai’ product
 SELECT customers.customer_id, products.product_name, COUNT(order_details.order_id) AS total
 FROM customers
 INNER JOIN orders ON customers.customer_id = orders.customer_id
