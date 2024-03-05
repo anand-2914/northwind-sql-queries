@@ -1,5 +1,5 @@
  
-  --24 24. Find the order with the highest total cost
+  --24 Find the order with the highest total cost
   
   SELECT products.product_name,order_details.quantity*products.unit_price AS total_cost from products
   inner join order_details
