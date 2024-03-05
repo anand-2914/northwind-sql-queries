@@ -1,5 +1,5 @@
 
---15  Find the total revenue for the year 2016
+---15  Find the total revenue for the year 2016
 
  select SUM((order_details.quantity*products.unit_price)- order_details.discount) AS revenue
  FROM orders
