@@ -1,5 +1,5 @@
 
---33 . Find the suppliers who supply the top 5 most sold products
+---33 . Find the suppliers who supply the top 5 most sold products
 
 SELECT suppliers.supplier_id, SUM(order_details.quantity) as total
 FROM suppliers
